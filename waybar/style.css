@@ -1,0 +1,70 @@
+@import "./rose-pine.css";
+
+* {
+  font-family: "MesloLGS NF";
+  background: none;
+}
+
+button {
+    box-shadow: none; 
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: none;
+}
+
+window#waybar {
+  color: #a5adcb;
+}
+
+.modules-center {
+}
+
+#workspaces {
+  border: 2px solid @overlay;
+  border-radius: 6px;
+  background: @base;
+  font-size: 20px;
+  padding: 0 2px;
+}
+
+#workspaces button {
+  color: #5b6078;
+  padding: 0 4px;
+}
+
+#workspaces button:hover {
+  color: @muted;
+  border: none;
+  box-shadow: none;
+  text-shadow: inherit;
+}
+
+#workspaces button.focused {
+  box-shadow: none;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+
+#clock {
+  border: 2px solid @overlay;
+  border-radius: 6px;
+  background: @base;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+
+#wireplumber {
+  border: 2px solid @overlay;
+  border-radius: 6px;
+  background: @base;
+  font-size: 16px;
+  padding: 0 10px;
+}
